@@ -52,7 +52,7 @@ client1.on("message", message => {
       if(!message.channel.guild) return;
         if(message.content.startsWith(prefix1 + "say")) {
 message.delete(3000);
-    if(message.author.id !== "463698464845594628") return message.reply('You are not allowed to use this command!').then(msg => msg.delete(3000));
+    if(message.author.id !== "533066328593006592") return message.reply('You are not allowed to use this command!').then(msg => msg.delete(3000));
         let args = message.content.split(" ").slice(1).join(" ");
 message.channel.send(args);
 }
@@ -62,7 +62,7 @@ client2.on("message", message => {
       if(!message.channel.guild) return;
         if(message.content.startsWith(prefix2 + "say")) {
 message.delete(3000);
-    if(message.author.id !== "463698464845594628") return message.reply('You are not allowed to use this command!').then(msg => msg.delete(3000));
+    if(message.author.id !== "533066328593006592") return message.reply('You are not allowed to use this command!').then(msg => msg.delete(3000));
         let args = message.content.split(" ").slice(1).join(" ");
 message.channel.send(args);
 }
@@ -72,7 +72,7 @@ client3.on("message", message => {
       if(!message.channel.guild) return;
         if(message.content.startsWith(prefix3 + "say")) {
 message.delete(3000);
-    if(message.author.id !== "463698464845594628") return message.reply('You are not allowed to use this command!').then(msg => msg.delete(3000));
+    if(message.author.id !== "533066328593006592") return message.reply('You are not allowed to use this command!').then(msg => msg.delete(3000));
         let args = message.content.split(" ").slice(1).join(" ");
 message.channel.send(args);
 }
@@ -82,7 +82,7 @@ client4.on("message", message => {
       if(!message.channel.guild) return;
         if(message.content.startsWith(prefix4 + "say")) {
 message.delete(3000);
-    if(message.author.id !== "463698464845594628") return message.reply('You are not allowed to use this command!').then(msg => msg.delete(3000));
+    if(message.author.id !== "533066328593006592") return message.reply('You are not allowed to use this command!').then(msg => msg.delete(3000));
         let args = message.content.split(" ").slice(1).join(" ");
 message.channel.send(args);
 }
@@ -92,7 +92,7 @@ client5.on("message", message => {
       if(!message.channel.guild) return;
         if(message.content.startsWith(prefix5 + "say")) {
 message.delete(3000);
-    if(message.author.id !== "463698464845594628") return message.reply('You are not allowed to use this command!').then(msg => msg.delete(3000));
+    if(message.author.id !== "533066328593006592") return message.reply('You are not allowed to use this command!').then(msg => msg.delete(3000));
         let args = message.content.split(" ").slice(1).join(" ");
 message.channel.send(args);
 }
